@@ -9,6 +9,7 @@ import { SignInFacultyComponent } from './sign-in-faculty/sign-in-faculty.compon
 import { SignUpFacultyComponent } from './sign-up-faculty/sign-up-faculty.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProgramComponent } from './program/program.component';
+import { AdminManageAccountComponent } from './admin-manage-account/admin-manage-account.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ProgramComponent } from './program/program.component';
     SignInFacultyComponent,
     SignUpFacultyComponent,
     ProgramComponent,
+    AdminManageAccountComponent,
  
   ],
   imports: [
