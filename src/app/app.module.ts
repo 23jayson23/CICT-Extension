@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatDialogModule} from '@angular/material/dialog';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminComponent } from './admin/admin.component';
 import { SignInFacultyComponent } from './sign-in-faculty/sign-in-faculty.component';
 import { SignUpFacultyComponent } from './sign-up-faculty/sign-up-faculty.component';
-import { AdminProgramComponent } from './admin-program/admin-program.component';
+import { ProgramPostComponent } from './admin/program-post/program-post.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,14 @@ import { AdminProgramComponent } from './admin-program/admin-program.component';
     AdminComponent,
     SignInFacultyComponent,
     SignUpFacultyComponent,
-    AdminProgramComponent
+    ProgramPostComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatDialogModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
