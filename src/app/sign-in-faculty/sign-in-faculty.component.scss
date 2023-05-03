@@ -1,53 +1,28 @@
-/* Input container */
-.input-container {
-    position: relative;
-    margin: 20px;
-  }
-  
-  /* Input field */
-  .input-field {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-bottom: 2px solid #ccc;
-    outline: none;
-    background-color: transparent;
-  }
-  
-  /* Input label */
-  .input-label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 16px;
-    color: rgba(204, 204, 204, 0);
-    pointer-events: none;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  
-  /* Input highlight */
-  .input-highlight {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 2px;
-    width: 0;
-    background-color: #FF1E1E;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  
-  /* Input field:focus styles */
-  .input-field:focus + .input-label {
-    top: -20px;
-    font-size: 12px;
-    color: #FF1E1E;
-  }
-  
-  .input-field:focus + .input-label + .input-highlight {
-    width: 100%;
-  }
-  
+.input {
+  width: 100%;
+  height: 44px;
+  background-color: #05060f0a;
+  border-radius: .5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.label {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .9rem;
+  font-weight: bold;
+  color: #05060f99;
+  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.input:hover, .input:focus, .input-group:hover .input {
+  outline: none;
+  border-color: #FF1E1E;
+}
+
+.input-group:hover .label, .input:focus {
+  color: #05060fc2;
+}
