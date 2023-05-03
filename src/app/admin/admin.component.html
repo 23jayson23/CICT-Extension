@@ -1,1 +1,174 @@
-<div>
+<body class="w-full h-screen fixed bg-[#eaeaea]">
+    <div class="w-full h-screen flex">
+        <!-- //side bar -->
+        <section class="w-[20%] bg-based h-screen ">
+            <div class="p-2 w-full h-screen flex flex-col justify-evenly">
+                <div class="w-full h-screen">
+                    <div class="flex items-center gap-2">
+                        <img src="assets/image/bsu-logo.png" width="50px">
+                        <strong class="montserrat text-[12px] font-extrabold">CICT - Extension  Office Management System</strong>
+                    </div>
+                    <div class="mt-5 flex flex-col gap-2">
+                        <button class="side-btn activate">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                            </svg>                          
+                            <p>Dashboard</p>
+                        </button>
+                        <button class="side-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                            </svg>                                                                            
+                            <p>Program</p>
+                        </button>
+                        <button class="side-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5A3.375 3.375 0 006.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0015 2.25h-1.5a2.251 2.251 0 00-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 00-9-9z" />
+                            </svg>                         
+                            <p>Reports</p>
+                        </button>
+                        <button class="side-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                            </svg>                                                                             
+                            <p>Manage User</p>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <button class="side-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
+                        </svg>                                                                                                           
+                        <p>Log Out</p>
+                    </button>
+                </div>
+            </div>
+            
+        </section>
+        <!-- //main section -->
+        <section class="w-[80%] h-screen p-5">
+            <!-- heads part -->
+            <div class="bg-based rounded-[10px] w-full p-4 flex justify-between items-center">
+                <div class="input-group">
+                    <input autocomplete="off" name="search" id="Email" placeholder="Search" class="input" type="search">
+                    <div></div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <p>Manalad Julius</p>
+                    <img class="w-[50px] h-[50px] rounded-full" src="assets/image/profile.jpg">
+                </div>
+            </div>
+            <!-- body part -->
+            <br>
+            <section class="flex gap-5">
+                <div class="w-[50%]">
+                    <div>
+                        <div class="flex items-center gap-5">
+                            <div class="flex items-center gap-3 p-4 w-[250px] bg-based mt-2 rounded-[10px]">   
+                                <img src="assets/image/faculty.png" width="80px">
+                                <div>
+                                    <p>Faculty</p>
+                                    <strong>50++</strong>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 w-[250px] bg-based mt-2 rounded-[10px]">   
+                                <img src="assets/image/partners.png" width="80px">
+                                <div>
+                                    <p>Partnership</p>
+                                    <strong>50++</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- reminder -->
+                    <div class="w-full h-screen bg-based rounded-[10px] p-3">
+                        <strong class="text-[20px] text-primary">Announcement</strong>
+                        <p>Create a  Reminder for the Expiration of MOA</p>
+                        <div class="input-group mt-2">
+                            <textarea autocomplete="off" type="text"></textarea>
+                            <div></div>
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn-primary">
+                                 Publish
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- table -->
+                <div class="w-[50%] bg-based rounded-[10px] m-2 p-3">
+                    <!-- first graph -->
+                    <Div class="w-full">
+                        <table class="charts-css bar multiple datasets-spacing-10 show-labels">
+                            <thead>
+                              <tr>
+                                <th scope="col"> Month </th>
+                                <th scope="col"> Progress </th>
+                              </tr>
+                            </thead>
+                          
+                            <tbody>
+                              <tr>
+                                <th scope="row"> Jan </th>
+                                <td style="--size: 0.3;"> <span class="data"> 30 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Feb </th>
+                                <td style="--size: 0.5;"> <span class="data"> 50 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Mar </th>
+                                <td style="--size: 0.8;"> <span class="data"> 80 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Apr </th>
+                                <td style="--size: 1;"> <span class="data"> 100 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> May </th>
+                                <td style="--size: 0.65;"> <span class="data"> 65 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Jun </th>
+                                <td style="--size: 0.45;"> <span class="data"> 45 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Jul </th>
+                                <td style="--size: 0.15;"> <span class="data"> 15 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Aug </th>
+                                <td style="--size: 0.32;"> <span class="data"> 32 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Sep </th>
+                                <td style="--size: 0.6;"> <span class="data"> 60 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Oct </th>
+                                <td style="--size: 0.9;"> <span class="data"> 90 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Nov </th>
+                                <td style="--size: 0.55;"> <span class="data"> 55 </span> </td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> Dec </th>
+                                <td style="--size: 0.4;"> <span class="data"> 40 </span> </td>
+                              </tr>
+                            </tbody>
+                          
+                          </table>
+                    </Div>
+                    <div></div>
+                    
+                </div>
+            </section>
+
+
+        </section>
+    </div>
+    
+</body>
