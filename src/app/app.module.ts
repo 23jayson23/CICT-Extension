@@ -7,8 +7,8 @@ import { AppComponent } from './app.component';
 import { AdminComponent } from './admin/admin.component';
 import { SignInFacultyComponent } from './sign-in-faculty/sign-in-faculty.component';
 import { SignUpFacultyComponent } from './sign-up-faculty/sign-up-faculty.component';
-import { ProgramPostComponent } from './admin/program-post/program-post.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProgramComponent } from './program/program.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AdminComponent,
     SignInFacultyComponent,
     SignUpFacultyComponent,
-    ProgramPostComponent,
-   
+    ProgramComponent,
+ 
   ],
   imports: [
     BrowserModule,

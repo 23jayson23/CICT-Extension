@@ -66,6 +66,10 @@ $project-theme: mat.define-light-theme((
         background-position: 0 50%;
     }
   }
+  
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
 html, body { height: 100%; }
 body { margin: 0; font-family: 'Montserrat', sans-serif; }
 

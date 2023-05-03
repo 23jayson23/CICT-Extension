@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProgramPostComponent } from './program-post.component';
+import { ProgramComponent } from './program.component';
 
-describe('ProgramPostComponent', () => {
-  let component: ProgramPostComponent;
-  let fixture: ComponentFixture<ProgramPostComponent>;
+describe('ProgramComponent', () => {
+  let component: ProgramComponent;
+  let fixture: ComponentFixture<ProgramComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProgramPostComponent ]
+      declarations: [ ProgramComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ProgramPostComponent);
+    fixture = TestBed.createComponent(ProgramComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
