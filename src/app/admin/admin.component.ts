@@ -14,6 +14,6 @@ export class AdminComponent {
 
   programpost(){
 
-    this.dialog.open(ProgramPostComponent);
+    this.dialog.open<string>(ProgramPostComponent);
   }
 }
