@@ -12,6 +12,6 @@ export class AdminComponent {
 constructor(public route:Router){}
 
 dashboard(){
-  this.route.navigate[("admin-page")]
+  this.route.navigate(["admin-page"])
 }
 }
