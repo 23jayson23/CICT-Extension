@@ -44,6 +44,9 @@ $project-theme: mat.define-light-theme((
     .side-btn{
         @apply w-full flex justify-start items-center text-[15px] p-2 gap-3 rounded hover:bg-primary hover:text-based transition duration-500 ease-in-out;
     }
+    .table-part{
+        @apply w-full flex items-center p-1 text-[12px] overflow-hidden;
+    }
 }
   
 .activate{
