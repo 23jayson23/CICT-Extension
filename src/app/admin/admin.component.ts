@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,5 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AdminComponent {
 
+constructor(public route:Router){}
 
+dashboard(){
+  this.route.navigate[("admin-page")]
+}
 }

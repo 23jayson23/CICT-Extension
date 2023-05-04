@@ -6,13 +6,16 @@ import { SignUpFacultyComponent } from './sign-up-faculty/sign-up-faculty.compon
 import { AdminComponent } from './admin/admin.component';
 import { ProgramComponent } from './program/program.component';
 import { AdminManageAccountComponent } from './admin-manage-account/admin-manage-account.component';
+import { PartnershipComponent } from './partnership/partnership.component';
 
 const routes: Routes = [
   {path: '', component: SignInFacultyComponent},
+  {path: 'sign-in', component: SignInFacultyComponent},
   {path: 'sign-up', component: SignUpFacultyComponent},
   {path: 'admin-page', component: AdminComponent},
   {path: 'program', component: ProgramComponent},
   {path: 'manage-account', component: AdminManageAccountComponent},
+  {path: 'partnership', component: PartnershipComponent},
 ];
 
 @NgModule({

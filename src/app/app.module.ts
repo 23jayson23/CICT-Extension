@@ -10,7 +10,6 @@ import { SignUpFacultyComponent } from './sign-up-faculty/sign-up-faculty.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProgramComponent } from './program/program.component';
 import { AdminManageAccountComponent } from './admin-manage-account/admin-manage-account.component';
-import { MatOptionModule } from '@angular/material/core';
 import { PartnershipComponent } from './partnership/partnership.component';
 
 @NgModule({
