@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProgramComponent } from './program/program.component';
 import { AdminManageAccountComponent } from './admin-manage-account/admin-manage-account.component';
 import { PartnershipComponent } from './partnership/partnership.component';
+import { FacultyDashboardComponent } from './faculty-dashboard/faculty-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { PartnershipComponent } from './partnership/partnership.component';
     ProgramComponent,
     AdminManageAccountComponent,
     PartnershipComponent,
+    FacultyDashboardComponent,
  
   ],
   imports: [
