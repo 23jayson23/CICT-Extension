@@ -12,6 +12,7 @@ import { ProgramComponent } from './program/program.component';
 import { AdminManageAccountComponent } from './admin-manage-account/admin-manage-account.component';
 import { PartnershipComponent } from './partnership/partnership.component';
 import { FacultyDashboardComponent } from './faculty-dashboard/faculty-dashboard.component';
+import { ModalAddEventComponent } from './faculty-dashboard/modal-add-event/modal-add-event.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FacultyDashboardComponent } from './faculty-dashboard/faculty-dashboard
     AdminManageAccountComponent,
     PartnershipComponent,
     FacultyDashboardComponent,
+    ModalAddEventComponent,
  
   ],
   imports: [
