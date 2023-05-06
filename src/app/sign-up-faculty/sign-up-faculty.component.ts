@@ -11,6 +11,7 @@ export class SignUpFacultyComponent {
 constructor(public route:Router){}
 
   login(){
+    
     this.route.navigate(["sign-in"])
   }
 }
